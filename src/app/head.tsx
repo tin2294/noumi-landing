@@ -7,7 +7,10 @@ export default function Head() {
         content="Turn everyday actions into mindful savings. Safe-to-spend clarity, weekly insights, and streaks. Join the private beta or request the investor brief."
       />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+      <link
+        href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap"
+        rel="stylesheet"
+      />
       {/* Favicon */}
       <link rel="icon" type="image/png" href="/noumi-logo.png" />
     </>
