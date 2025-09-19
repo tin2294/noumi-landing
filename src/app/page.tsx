@@ -136,7 +136,7 @@ export default function Home() {
             </form>
           ) : (
             <p className="text-sm text-[#a8abb2] mt-2">
-              You're on the list. We’ll only email with access details. No spam,
+              You&apos;re on the list. We&apos;ll only email with access details. No spam,
               ever.
             </p>
           )}
