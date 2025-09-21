@@ -89,15 +89,13 @@ export default function Home() {
 
       {/* Strip */}
       <section className="bg-[#D6E8E3]/10 text-center pt-6">
-        <p className="text-[#316E72] text-base px-6">
-          <strong>
-            Crafted by domain experts in banking, product, health & wellness, and AI.
-          </strong>{" "}
-        </p>
         <section className="container mx-auto max-w-5xl p-6 grid md:grid-cols-2 gap-8">
           <div className="bg-[#D6E8E3]/20 border border-[#B7DFD9] rounded-2xl p-8 shadow-md">
             <h2 className="text-3xl font-semibold mb-6 text-[#316E72]">Value</h2>
             <ul className="space-y-4 text-sm leading-relaxed text-[#1C1D20]">
+              <li>
+                <strong>Crafted by domain experts</strong> in banking, product, health & wellness, and AI.
+              </li>
               <li>
                 <strong>Know what’s safe to spend.</strong> A simple meter that
                 keeps goals (and bills) on track.
