@@ -132,42 +132,44 @@ export default function Home() {
         </section>
       </section>
 
-      {/* FAQ / Contact / Accessibility */}
-      <section className="container mx-auto max-w-5xl p-6 grid md:grid-cols-3 gap-8">
-        <div className="bg-[#D6E8E3]/20 border border-[#B7DFD9] rounded-2xl p-8 shadow-md">
-          <h2 className="text-xl font-semibold mb-4 text-[#316E72]">FAQ</h2>
-          <dl className="text-sm leading-relaxed space-y-3 text-[#1C1D20]">
-            <div>
-              <dt className="font-semibold">Is this another budgeting app?</dt>
-              <dd>
-                No. Noumi focuses on habits, awareness, and simple
-                automation—so saving feels effortless.
-              </dd>
-            </div>
-            <div>
-              <dt className="font-semibold">How do you handle data?</dt>
-              <dd>
-                Privacy-first. You control what’s shared; opt out anytime. (Full
-                policy at launch.)
-              </dd>
-            </div>
-            <div>
-              <dt className="font-semibold">When is the beta?</dt>
-              <dd>
-                Rolling access over the next few weeks. Add your email to get an
-                invite.
-              </dd>
-            </div>
-          </dl>
-        </div>
-        <div className="bg-[#D6E8E3]/20 border border-[#B7DFD9] rounded-2xl p-8 shadow-md">
-          <h2 className="text-xl font-semibold mb-4 text-[#316E72]">Contact</h2>
-          <p className="text-sm leading-relaxed text-[#1C1D20]">
-            For general inquiries, please contact us at {" "}
-            <a href="mailto:hello@noumiapp.ai" className="underline text-[#316E72]">
-              hello@noumiapp.ai
-            </a>{" "}
-          </p>
+      {/* FAQ & Contact */}
+      <section className="container mx-auto max-w-5xl p-6" aria-label="FAQ and contact">
+        <div className="grid gap-8 md:grid-cols-2">
+          {/* FAQ Card */}
+          <div className="bg-[#D6E8E3]/20 border border-[#B7DFD9] rounded-2xl p-8 shadow-md">
+            <h2 className="text-2xl font-semibold mb-4 text-[#316E72]">FAQ</h2>
+            <dl className="text-sm leading-relaxed space-y-3 text-[#1C1D20]">
+              <div>
+                <dt className="font-semibold">Is this another budgeting app?</dt>
+                <dd>
+                  No. Noumi focuses on habits, awareness, and simple automation—so saving feels effortless.
+                </dd>
+              </div>
+              <div>
+                <dt className="font-semibold">How do you handle data?</dt>
+                <dd>
+                  Privacy-first. You control what’s shared; opt out anytime. (Full policy at launch.)
+                </dd>
+              </div>
+              <div>
+                <dt className="font-semibold">When is the beta?</dt>
+                <dd>
+                  Rolling access over the next few weeks. Add your email to get an invite.
+                </dd>
+              </div>
+            </dl>
+          </div>
+
+          {/* Contact Card */}
+          <div className="bg-[#D6E8E3]/20 border border-[#B7DFD9] rounded-2xl p-8 shadow-md">
+            <h2 className="text-2xl font-semibold mb-4 text-[#316E72]">Contact</h2>
+            <p className="text-sm leading-relaxed text-[#1C1D20]">
+              For general inquiries, please contact us at{" "}
+              <a href="mailto:hello@noumiapp.ai" className="underline text-[#316E72]">
+                hello@noumiapp.ai
+              </a>
+            </p>
+          </div>
         </div>
       </section>
 
