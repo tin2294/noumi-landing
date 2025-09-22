@@ -11,7 +11,7 @@ export default function Home() {
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(1200px_600px_at_80%_-10%,rgba(49,110,114,0.05),transparent_60%),radial-gradient(900px_500px_at_0%_0%,rgba(94,224,181,0.05),transparent_55%),#F3F5F5]" />
 
       {/* Hero */}
-      <header className="container mx-auto max-w-4xl px-6 pt-28 pb-14 text-center">
+      <header className="container mx-auto max-w-4xl px-6 pt-28 pb-6 text-center">
         {/* Logo */}
         <h1
           className="mb-8"
@@ -74,7 +74,7 @@ export default function Home() {
                 type="submit"
                 className="flex-1 min-w-0 bg-[#316E72] text-[#F3F5F5] text-sm font-semibold px-4 py-2 rounded-xl border border-[#316E72] shadow-lg hover:brightness-110 hover:scale-[1.02] transition cursor-pointer"
               >
-                Join the Private Beta
+                Get early access
               </button>
             </form>
           ) : (
@@ -87,14 +87,14 @@ export default function Home() {
         <p className="mt-6 text-sm text-[#316E72]">Now accepting early users and investor conversations. Beta is limited.</p>
       </header>
 
-      {/* Strip */}
-      <section className="bg-[#D6E8E3]/10 text-center pt-6">
-        <section className="container mx-auto max-w-5xl p-6 grid md:grid-cols-2 gap-8">
+      {/* FAQ & Contact */}
+      <section className="container mx-auto max-w-5xl p-6" aria-label="FAQ and contact">
+        <div className="grid gap-8 md:grid-cols-2">
           <div className="bg-[#D6E8E3]/20 border border-[#B7DFD9] rounded-2xl p-8 shadow-md">
-            <h2 className="text-3xl font-semibold mb-6 text-[#316E72]">Value</h2>
+            <h2 className="text-2xl font-semibold mb-6 text-[#316E72] text-center">Value</h2>
             <ul className="space-y-4 text-sm leading-relaxed text-[#1C1D20]">
               <li>
-                <strong>Crafted by domain experts</strong> in banking, product, health & wellness, and AI.
+                <strong className="text-[#316E72]">Crafted by domain experts in banking, product, health & wellness, and AI.</strong>
               </li>
               <li>
                 <strong>Know what’s safe to spend.</strong> A simple meter that
@@ -113,12 +113,9 @@ export default function Home() {
                 transactions highlight your personal patterns and triggers.
               </li>
             </ul>
-            <p className="text-[#316E72] text-sm mt-4 italic">
-              (That’s it—no diagrams or algorithm talk.)
-            </p>
           </div>
           <div className="bg-[#D6E8E3]/20 border border-[#B7DFD9] rounded-2xl p-8 shadow-md">
-            <h2 className="text-3xl font-semibold mb-6 text-[#316E72]">
+            <h2 className="text-2xl font-semibold mb-6 text-[#316E72] text-center">
               How it feels
             </h2>
             <ol className="list-decimal list-inside space-y-2 text-sm leading-relaxed mb-4 text-[#1C1D20]">
@@ -127,15 +124,9 @@ export default function Home() {
               <li>Watch progress grow—calmly and consistently.</li>
             </ol>
           </div>
-        </section>
-      </section>
-
-      {/* FAQ & Contact */}
-      <section className="container mx-auto max-w-5xl p-6" aria-label="FAQ and contact">
-        <div className="grid gap-8 md:grid-cols-2">
           {/* FAQ Card */}
           <div className="bg-[#D6E8E3]/20 border border-[#B7DFD9] rounded-2xl p-8 shadow-md">
-            <h2 className="text-2xl font-semibold mb-4 text-[#316E72]">FAQ</h2>
+            <h2 className="text-2xl text-center font-semibold mb-4 text-[#316E72]">FAQ</h2>
             <dl className="text-sm leading-relaxed space-y-3 text-[#1C1D20]">
               <div>
                 <dt className="font-semibold">Is this another budgeting app?</dt>
@@ -160,7 +151,7 @@ export default function Home() {
 
           {/* Contact Card */}
           <div className="bg-[#D6E8E3]/20 border border-[#B7DFD9] rounded-2xl p-8 shadow-md">
-            <h2 className="text-2xl font-semibold mb-4 text-[#316E72]">Contact</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-[#316E72] text-center">Contact</h2>
             <p className="text-sm leading-relaxed text-[#1C1D20]">
               For general inquiries, please contact us at{" "}
               <a href="mailto:hello@noumiapp.ai" className="underline text-[#316E72]">
@@ -219,7 +210,7 @@ export default function Home() {
                 type="submit"
                 className="bg-[#316E72] text-[#F3F5F5] font-semibold px-6 py-3 rounded-xl border border-[#316E72] shadow-lg hover:brightness-110 hover:scale-[1.02] transition cursor-pointer"
               >
-                Get Early Access
+                Get early access
               </button>
             </form>
           ) : (
